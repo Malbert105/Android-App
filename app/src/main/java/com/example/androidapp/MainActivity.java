@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
 
+
     private EditText editTextName, editTextEmail, editTextPassword, editTextConfirmPassword;
     private RadioGroup radioGroupGender;
     private RadioButton radioButtonMale, radioButtonFemale;
@@ -27,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        radioGroupGender.findViewById(R.id.radioGroupGender);
+
+
     }
 }
