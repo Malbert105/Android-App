@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Android App</string>
+    <array name="countries">
+     <item>Germany</item>
+        <item>USA</item>
+        <item>Egypt</item>
+        <item>England</item>
+        <item>Spain</item>
+
+    </array>
+</resources>
